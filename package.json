@@ -1,0 +1,29 @@
+{
+  "name": "kcoin-blockchain",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "knex": "knex"
+  },
+  "repository": "git@github.com:nguyenkha/kcoin-blockchain.git",
+  "author": "Kha Do <donguyenkha@gmail.com>",
+  "dependencies": {
+    "awilix": "^2.9.0",
+    "big-integer": "^1.6.26",
+    "bluebird": "^3.5.1",
+    "express-async-wrap": "^1.0.0",
+    "knex": "^0.14.2",
+    "lodash": "^4.17.4",
+    "pg": "^7.4.0",
+    "restify": "^6.3.4",
+    "restify-cors-middleware": "^1.1.0",
+    "ursa": "^0.9.4",
+    "ws": "^3.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^4.0.1"
+  }
+}
